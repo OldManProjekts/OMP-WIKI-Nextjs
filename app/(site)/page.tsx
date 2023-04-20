@@ -6,16 +6,14 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-    <div className="max-w-5xl mx-auto py-20">
+    <div>
       <h1 className="text-7xl font-extrabold">
-        Cheers I&apos;m 
-        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-          Jason
-        </span>
+        Cheers I&apos;m  
+        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent"> Jason D.</span>
         !
       </h1>
 
-      <p className="mt-3 text-xl text-gray-600">Thanks for visiting.  Check out my projects.</p>
+      <p className="mt-3 text-xl text-gray-600">Thanks for visiting.  Check out some of my projects.</p>
 
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
 
